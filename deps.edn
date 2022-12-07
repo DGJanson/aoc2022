@@ -1,0 +1,44 @@
+{ 
+    :deps
+    { org.clojure/tools.logging {:mvn/version "1.2.4"}}
+
+    :aliases
+    {
+        :test {
+            :exec-fn aoc/test-run
+        }
+        :day1 {
+            :exec-fn day01/solve
+        }
+        :day2 {
+            :exec-fn day02/solve
+        }
+        :day2test {
+            :exec-fn day02/solve-test
+        }
+        :day3 {
+            :exec-fn day03/solve
+        }
+        :day3test {
+            :exec-fn day03/solve-test
+        }
+        :day4 {
+            :exec-fn day04/solve
+        }
+        :day4test {
+            :exec-fn day04/solve-test
+        }
+        :day5 {
+            :exec-fn day05/solve
+        }
+        :day5test {
+            :exec-fn day05/solve-test
+        }
+        :day6 {
+            :exec-fn day06/solve
+        }
+        :day6test {
+            :exec-fn day06/solve-test
+        }
+    }
+}
