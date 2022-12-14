@@ -40,5 +40,11 @@
         :day6test {
             :exec-fn day06/solve-test
         }
+        :day7 {
+            :exec-fn day07/solve
+        }
+        :day7test {
+            :exec-fn day07/solve-test
+        }
     }
 }
